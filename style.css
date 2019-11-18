@@ -1,0 +1,16 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+#h1{
+    font-family: 'Anton', sans-serif;
+   
+}
+body{
+    background-image: url(blue-gradient-background.png) ;
+    text-align: center;
+    }
+    .header-text{
+        
+    }
