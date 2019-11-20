@@ -1,43 +1,38 @@
 html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-.header-text-2{
-    font-family: 'Righteous', cursive;
-    color: white;
-    font-size: 40;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-   }
-.header-text-3{
-    font-family: 'Righteous', cursive;
-    color: white;
-    font-size: 20;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    position: absolute;
-    transform: translate(15%, 80%)
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
-.header{
-    height: 10vh;
-    background-color: black;
-    padding: 10px 20px;
-    border: 3px solid white; 
-    margin: 50 10px;
-    position: relative;
+.header-text-2 {
+  font-family: "Righteous", cursive;
+  color: white;
+  font-size: 40;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 }
-body{
-    background-image: url(blue-gradient-background.png) ;
-    text-align: center;
-    
-    }
-    .header-text{
-        
-        }
-        .image{
-            position: absolute;
-            transform: translate(-60%, 30%)
-            
-            
+#header-text-3 {
+  font-family: "Righteous", cursive;
+  color: white;
+  font-size: 30;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  position: absolute;
+  transform: translate(0%, 260%);
+}
+.header {
+  height: 10vh;
+  background-color: black;
+  padding: 1rem 2rem;
+  border: 3px solid white;
+  margin: 5 1rem;
+  position: relative;
+}
+body {
+  background-image: url(blue-gradient-background.png);
+  text-align: center;
+}
+img {
+  position: absolute;
+  transform: translate(-55%, 60%);
 }
