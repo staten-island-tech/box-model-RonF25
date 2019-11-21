@@ -9,7 +9,15 @@ html {
   color: white;
   font-size: 40;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing: 1rem;
+}
+.header {
+  height: 100vh;
+  background-color: black;
+  padding: 1rem 2rem;
+  border: 3px solid white;
+  margin: 5rem 1rem;
+  position: relative;
 }
 #header-text-3 {
   font-family: "Righteous", cursive;
@@ -18,16 +26,10 @@ html {
   text-transform: uppercase;
   letter-spacing: 1rem;
   position: absolute;
-  transform: translate(0%, 260%);
+  top: 20%;
+  left: 3%;
 }
-.header {
-  height: 10vh;
-  background-color: black;
-  padding: 1rem 2rem;
-  border: 3px solid white;
-  margin: 5 1rem;
-  position: relative;
-}
+
 body {
   background-image: url(blue-gradient-background.png);
   text-align: center;
