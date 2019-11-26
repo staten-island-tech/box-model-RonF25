@@ -1,4 +1,4 @@
-@import"./header";
+/*@import"./header";
 
 $colors: (
     primary:#4567af
@@ -10,4 +10,22 @@ $colors: (
 
 body{
     background-color: rgba(color(primary), 0.4);
+}*/
+.flex-parent{
+    height: 60vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+.flex-child{
+    height: 20vh;
+    background-color: red;
+    margin: 10px;
+}
+#flex-grow{
+    flex-grow: 1;
+    justify-content: space-around;
+}
+#flex-grow-2{
+    flex-grow: 2;
 }
